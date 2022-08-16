@@ -4,6 +4,7 @@ import DarkMode from "./02-dark-mode/darkmode";
 import FormValidator from "./03-form-validator/form";
 import DogPics from "./04-dog-picture/dogpic";
 import ScoreKeeper from "./05-score-keeping/scorekeeper";
+import ToggleWindowEvent from "./06-add-window-event/toggle-window-event";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <FormValidator />
       <DogPics/>
       <ScoreKeeper/>
+      <ToggleWindowEvent/>
     </div>
 
   );
