@@ -8,6 +8,8 @@ import ToggleWindowEvent from "./06-add-window-event/toggle-window-event";
 import ColorPicker from "./07-color-picker/color-picker";
 import PixelArt from "./08-pixel-art/pixel-art";
 import SimpleCalculator from "./09-simple-calculator/simple-calculator";
+import FocusInput from "./10-focus-input/focus-input";
+import ShoppingCart from "./11-shooping-cart/shooping-cart";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <ColorPicker/>
       <PixelArt/>
       <SimpleCalculator/>
+      <FocusInput/>
+      <ShoppingCart/>
     </div>
 
   );
