@@ -8,9 +8,9 @@ const ColorContext = createContext({
 function ColorPicker () {
   const { setColor } = useContext(ColorContext)
 
-  const colors = ['red', 'blue', 'yellow', 'green', 'black', 'white', 'purple']
+  const colors = ['red', 'blue', 'yellow', 'green', 'black', 'white', 'purple','orange','salmon','pink']
   return (
-    <div>
+    <div className='colors'>
       <h1>Choose a color</h1>
       {colors.map(color => (
         <button
